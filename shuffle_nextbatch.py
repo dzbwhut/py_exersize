@@ -30,7 +30,9 @@ def next_batch(dataset,lables,batch_size,echo_num):
 		yield dataset[j:k]
 		yield lables[j:k]
 
-# 试验
+'''
+试验
+'''
 a=np.array(range(10))
 b=np.array(range(10,20,1))
 data_labels_shuffle(a,b)
